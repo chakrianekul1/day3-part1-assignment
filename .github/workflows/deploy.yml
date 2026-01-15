@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  AWS_REGION: eu-north-1                   # ⚠️ CHECK THIS: Must match your AWS region
+  AWS_REGION: us-east-1                   # ⚠️ CHECK THIS: Must match your AWS region
   ECR_REPOSITORY: logger          # ⚠️ CHECK THIS: Must match your ECR Repo name
   ECS_SERVICE: logger-service              # ⚠️ CHECK THIS: Must match your Service name
   ECS_CLUSTER: logger-cluster              # ⚠️ CHECK THIS: Must match your Cluster name
